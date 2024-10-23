@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRISPY - Головна</title>
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="nav-bar-container">
+			<div class="nav-bar">
+				<img src="./assets/logo.svg" class="logo">
+				<nav>
+					<a href="#top">Main</a>
+					<a href="#about-us">About us</a>
+					<a href="#assortment">Assortment</a>
+					<a href="#our-bakeries">Our bakeries</a>
+					<a href="#contacts">Contacts</a>
+					<select class="lang-selector" id="langSelector1">
+					  <option value="ua">UA</option>
+					  <option value="en" selected>EN</option>
+					</select>
+				</nav>
+				
+				<div id="burger-menu">
+				  <span></span>
+				</div>
+
+				<div id="menu">
+				    <ul>
+				      <li><a href="#top">Main</a></li>
+				      <li><a href="#about-us">About us</a></li>
+				      <li><a href="#assortment">Assortment</a></li>
+				      <li><a href="#our-bakeries">Our bakeries</a></li>
+				      <li><a href="#contacts">Contacts</a></li>
+				      <li><select class="lang-selector" id="langSelector2">
+					  <option value="ua">UA</option>
+					  <option value="en" selected>EN</option>
+					</select></li>
+				    </ul>
+				</div>
+				<script src="./scripts/lang.js"></script>
+				<script src="./scripts/burger-menu.js"></script>
+			</div>
+		</div>
+		
+		<div class="main-title">
+			<div class="headline">
+				<h1>Fresh bread baked with love</h1>
+				<p>Baking traditions that give warmth and unforgettable taste every day</p>
+			</div>
+						
+			<div class="social-media-vertical">
+				<img src="./assets/instagram-logo.svg">
+				<img src="./assets/facebook-logo.svg">
+				<img src="./assets/youtube-logo.svg">
+			</div>
+		</div>
+
+		<a href="#about-us" class="arrow-down">
+			<img src="./assets/arrow-down.svg">
+		</a>
+	</header>
+
+	<main>
+		<section class="info" id="about-us">
+			<h2>ABOUT US</h2>
+			<p>Crispy Bakery is a place where taste, quality, and tradition come together in every product. We began our journey with the goal of creating a "space for happiness" in the heart of Lviv. Our experienced bakers constantly refine recipes and implement new technologies to bring you fresh pastries that delight not only the palate but also the soul.</p>
+			<p>At CRISPY, we bake our products in traditional ovens, replenishing our shelves every morning. Our assortment includes everything: fragrant bread, delicate sweet pastries, and crispy cookies. Visit us to grab some treats "to-go" or enjoy them in the cozy atmosphere of our bakery with a cup of aromatic coffee or tea.</p>
+			<div class="link">
+				<p>History</p>
+				<img src="./assets/arrow-small.svg">
+			</div>
+		</section>
+
+		<section id="promo">
+			<video playsinline autoplay muted loop>
+  				<source src="./assets/promo.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</section>	
+
+		<section class="production-steps">
+			<div class="step">
+				<img src="./assets/baking-icon.svg">
+				<p class="step-number">1</p>
+				<p class="step-title">We cook</p>
+				<p class="step-description">We have collected the best recipes for you and selected the highest quality products</p>
+			</div>
+			<div class="step">
+				<img src="./assets/oven-icon.svg">
+				<p class="step-number">2</p>
+				<p class="step-title">We bake</p>
+				<p class="step-description">A team of the best bakers bake in ovens, which makes our products special</p>
+			</div>
+			<div class="step">
+				<img src="./assets/delivery-icon.svg">
+				<p class="step-number">3</p>
+				<p class="step-title">We deliver to bakeries</p>
+				<p class="step-description">Fresh products appear on bakery shelves every morning</p>
+			</div>
+			<div class="step">
+				<img src="./assets/sell-icon.svg">
+				<p class="step-number">4</p>
+				<p class="step-title">Waiting for you</p>
+				<p class="step-description">We are ready to share delicious things with you in our bakeries</p>
+			</div>
+		</section>
+
+		<section id="our-bakeries">
+			<video playsinline autoplay muted loop>
+		    	<source src="./assets/red-velvet-cake.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+			</video>
+
+			<div class="info">
+				<h2>PAY A VISIT</h2>
+				<p>Our first bakery was opened in Lviv. However, we are constantly growing, and now you can visit us in six locations: four in Lviv and two in Stryi. Choose the nearest bakery and stop by to try our products.</p>
+				<div class="link">
+					<p>See locations</p>
+					<img src="./assets/arrow-small.svg">
+				</div>
+			</div>
+		</section>
+
+		<section class="our-products" id="assortment">
+			<h2>OUR PRODUCTS</h2>
+			<div class="products">
+				<img src="./assets/arrow-left.svg" class="arrow-left">
+
+				<div class="product">
+					<img src="./assets/croissant.png" alt="croissant">
+					<div class="product-description">
+						<p class="product-name">Croissant</p>
+						<p class="product-price">35 UAH</p>
+					</div>
+				</div>
+
+				<div class="product">
+					<img src="./assets/cheesecake.png" alt="cheesecake">
+					<div class="product-description">
+						<p class="product-name">Cheesecake</p>
+						<p class="product-price">380 UAH</p>
+					</div>
+				</div>
+
+				<div class="product">
+					<img src="./assets/cinnabon.png" alt="cinnabon">
+					<div class="product-description">
+						<p class="product-name">Cinnabon</p>
+						<p class="product-price">40 UAH</p>
+					</div>
+				</div>
+
+				<img src="./assets/arrow-right.svg" class="arrow-right">
+			</div>
+		</section>
+
+		<section class="contact-form-container" id="contacts">
+	        <div>
+	        	<h2>Contact us</h2>
+	        	<p>Fill the from below and we will answer all your quetions</p>
+	    	</div>
+	        
+	        <form action="#" method="post">
+	            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+	            <input type="email" id="email" name="email" placeholder="Your e-mail" required>
+
+	            <input type="subject" id="subject" name="subject" placeholder="Subject" required>
+
+	            <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+
+	            <button type="submit">Submit</button>
+	        </form>
+    	</section>
+	</main>
+
+	<footer>
+		<div class="nav-bar">
+			<img src="./assets/logo.svg" class="logo">
+			<nav>
+				<a href="#top">Main</a>
+				<a href="#about-us">About us</a>
+				<a href="#assortment">Assortment</a>
+				<a href="#our-bakeries">Our bakeries</a>
+				<a href="#contacts">Contacts</a>
+			</nav>
+
+			<div class="our-socials">
+				<div>Social media</div>
+				<div class="social-media-horizontal">
+					<img src="./assets/instagram-logo.svg">
+					<img src="./assets/facebook-logo.svg">
+					<img src="./assets/youtube-logo.svg">
+				</div>
+			</div>
+
+			<div>
+				<p>© CRISPY.COM.UA 2024</p>
+				<p>All rigths reserved.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

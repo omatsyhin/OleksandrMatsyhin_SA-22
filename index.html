@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRISPY - Головна</title>
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="nav-bar-container">
+			<div class="nav-bar">
+				<img src="./assets/logo.svg" class="logo">
+				<nav>
+					<a href="#top">Головна</a>
+					<a href="#about-us">Про нас</a>
+					<a href="#assortment">Асортимент</a>
+					<a href="#our-bakeries">Наші пекарні</a>
+					<a href="#contacts">Контакти</a>
+					<select class="lang-selector" id="langSelector1">
+					  <option value="ua" selected>UA</option>
+					  <option value="en">EN</option>
+					</select>
+				</nav>
+				
+				<div id="burger-menu">
+				  <span></span>
+				</div>
+
+				<div id="menu">
+				    <ul>
+				      <li><a href="#top">Головна</a></li>
+				      <li><a href="#about-us">Про нас</a></li>
+				      <li><a href="#assortment">Асортимент</a></li>
+				      <li><a href="#our-bakeries">Наші пекарні</a></li>
+				      <li><a href="#contacts">Контакти</a></li>
+				      <li><select class="lang-selector" id="langSelector2">
+					  <option value="ua" selected>UA</option>
+					  <option value="en">EN</option>
+					</select></li>
+				    </ul>
+				</div>
+				<script src="./scripts/lang.js"></script>
+				<script src="./scripts/burger-menu.js"></script>
+			</div>
+		</div>
+
+		<div class="main-title">
+			<div class="headline">
+				<h1>Свіжий хліб, спечений з любов’ю</h1>
+				<p>Традиції випікання, що дарують тепло та незабутній смак кожного дня</p>
+			</div>
+						
+			<div class="social-media-vertical">
+				<img src="./assets/instagram-logo.svg">
+				<img src="./assets/facebook-logo.svg">
+				<img src="./assets/youtube-logo.svg">
+			</div>
+		</div>
+
+		<a href="#about-us" class="arrow-down">
+			<img src="./assets/arrow-down.svg">
+		</a>
+	</header>
+
+	<main>
+		<section class="info" id="about-us">
+			<h2>ПРО НАС</h2>
+			<p>Пекарня CRISPY — це місце, де смак, якість та традиції зустрічаються в кожному виробі. Ми почали свій шлях з метою створення "простору для щастя" у самому серці Львова. Наші досвідчені пекарі постійно вдосконалюють рецепти та впроваджують нові технології, щоб дарувати вам свіжу випічку, яка радує не лише смак, а й душу.</p>
+			<p>У CRISPY ми випікаємо продукцію в традиційних печах, а щоранку забезпечуємо поповнення наших прилавків. У нашому асортименті ви знайдете все: ароматний хліб, ніжну солодку випічку та хрустке печиво. Завітайте до нас, щоб купити смаколики “з собою” або насолодитися ними в затишній атмосфері нашої пекарні з чашкою ароматної кави чи чаю.</p>
+			<div class="link">
+				<p>Історія пекарні</p>
+				<img src="./assets/arrow-small.svg">
+			</div>
+		</section>
+
+		<section id="promo">
+			<video playsinline autoplay muted loop>
+  				<source src="./assets/promo.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</section>	
+
+		<section class="production-steps">
+			<div class="step">
+				<img src="./assets/baking-icon.svg">
+				<p class="step-number">1</p>
+				<p class="step-title">Виготовляємо продукцію</p>
+				<p class="step-description">Зібрали для вас найкращі рецепти та підібрали найякісніші продукти</p>
+			</div>
+			<div class="step">
+				<img src="./assets/oven-icon.svg">
+				<p class="step-number">2</p>
+				<p class="step-title">Випікаємо в печах</p>
+				<p class="step-description">Команда найкращих пекарів випікає у печах, що робить нашу продукцію особливою</p>
+			</div>
+			<div class="step">
+				<img src="./assets/delivery-icon.svg">
+				<p class="step-number">3</p>
+				<p class="step-title">Доставляємо в пекарні</p>
+				<p class="step-description">Щоранку свіжа продукція з’являється на прилавках пекарень</p>
+			</div>
+			<div class="step">
+				<img src="./assets/sell-icon.svg">
+				<p class="step-number">4</p>
+				<p class="step-title">Чекаємо на вас</p>
+				<p class="step-description">Готові ділитись з вами смачненьким в наших пекарнях</p>
+			</div>
+		</section>
+
+		<section id="our-bakeries">
+			<video playsinline autoplay muted loop>
+		    	<source src="./assets/red-velvet-cake.mp4" type="video/mp4">
+		    Your browser does not support the video tag.
+			</video>
+
+			<div class="info">
+				<h2>ЧЕКАЄМО ВАС У ГОСТІ</h2>
+				<p>Наша перша пекарня була відкрита у Львові. Але ми весь час розвиваємось, тому зараз відвідати нас можна вже аж у шести місцях, чотири з яких знаходяться у Львові та два у Стрию. Обирайте найближчу пекарню та завітайте до нас, аби спробувати нашу продукцію.</p>
+				<div class="link">
+					<p>Переглянути адреси пекарень</p>
+					<img src="./assets/arrow-small.svg">
+				</div>
+			</div>
+		</section>
+
+		<section class="our-products" id="assortment">
+			<h2>НАША ПРОДУКЦІЯ</h2>
+			<div class="products">
+				<img src="./assets/arrow-left.svg" class="arrow-left">
+
+				<div class="product">
+					<img src="./assets/croissant.png" alt="croissant">
+					<div class="product-description">
+						<p class="product-name">Круасан</p>
+						<p class="product-price">35 грн</p>
+					</div>
+				</div>
+
+				<div class="product">
+					<img src="./assets/cheesecake.png" alt="cheesecake">
+					<div class="product-description">
+						<p class="product-name">Чізкейк</p>
+						<p class="product-price">380 грн</p>
+					</div>
+				</div>
+
+				<div class="product">
+					<img src="./assets/cinnabon.png" alt="cinnabon">
+					<div class="product-description">
+						<p class="product-name">Сінабон</p>
+						<p class="product-price">40 грн</p>
+					</div>
+				</div>
+
+				<img src="./assets/arrow-right.svg" class="arrow-right">
+			</div>
+		</section>
+
+		<section class="contact-form-container" id="contacts">
+	        <div>
+	        	<h2>Зв'яжіться з нами</h2>
+	        	<p>Заповніть форму і ми дамо відповіді на всі ваші запитання</p>
+	    	</div>
+	        
+	        <form action="#" method="post">
+	            <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+
+	            <input type="email" id="email" name="email" placeholder="Ваш e-mail" required>
+
+	            <input type="subject" id="subject" name="subject" placeholder="Тема" required>
+
+	            <textarea id="message" name="message" placeholder="Повідомлення" rows="4" required></textarea>
+
+	            <button type="submit">Надіслати</button>
+	        </form>
+    	</section>
+	</main>
+
+	<footer>
+		<div class="nav-bar">
+			<img src="./assets/logo.svg" class="logo">
+			<nav>
+				<a href="#top">Головна</a>
+				<a href="#about-us">Про нас</a>
+				<a href="#assortment">Асортимент</a>
+				<a href="#our-bakeries">Наші пекарні</a>
+				<a href="#contacts">Контакти</a>
+			</nav>
+
+			<div class="our-socials">
+				<div>Ми у соцмережах</div>
+				<div class="social-media-horizontal">
+					<img src="./assets/instagram-logo.svg">
+					<img src="./assets/facebook-logo.svg">
+					<img src="./assets/youtube-logo.svg">
+				</div>
+			</div>
+
+			<div>
+				<p>© CRISPY.COM.UA 2024</p>
+				<p>Всі права захищені.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
